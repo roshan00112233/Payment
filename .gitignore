@@ -1,0 +1,58 @@
+# Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code files
+.vscode/
+
+.vs/
+
+# Rider IDE
+.idea/
+
+# Dotnet-generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+*.psmdcp
+
+# ASP.NET
+*.dbmdl
+*.bak
+*.sql
+*.mdf
+*.ldf
+
+# Publish output
+publish/
+out/
+
+# Configuration files
+appsettings*.json
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Others
+_ReSharper*/
+*.DotSettings.user
+*.orig
